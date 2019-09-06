@@ -7,4 +7,3 @@ def map (array)
   end
   return new
 end
-end
