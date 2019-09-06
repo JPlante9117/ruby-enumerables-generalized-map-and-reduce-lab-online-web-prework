@@ -3,11 +3,11 @@
 def my own map
   i = 0
   while i < Array.length do
-    new.push( Array[i] * -1 ) # <== Unique work
+    yield
     i += 1
   end
 end
 
 
 
-map {|n| puts n * -1}
+my own map.map {|n| puts n * -1}
