@@ -1,13 +1,13 @@
 # Your Code Here
 
-def my_own_map
+def my_own_map(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    yield
+    yield()
     i += 1
   end
   return new
 end
 
-my_own_map(){|n| n * -1}
+my_own_map.map{|n| n * -1}
