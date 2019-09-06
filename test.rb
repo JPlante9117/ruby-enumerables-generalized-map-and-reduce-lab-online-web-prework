@@ -3,3 +3,11 @@ def make_sandwich(element1, element2)
 end
  
 puts make_sandwich("grits", "abject terror") { |innards| "#{innards} on rye" }
+
+def intros (name)
+  yield(name)
+  yield("Jack")
+  yield("Paul")
+end
+
+intros("Manny") {|n| "My name is #{n}!"
