@@ -1,6 +1,6 @@
 # Your Code Here
 
-def my own map
+def my_own_map
   i = 0
   while i < Array.length do
     yield
@@ -10,4 +10,4 @@ end
 
 
 
-my own map.map {|i| puts i * -1}
+my_own_map.map {|i| puts i * -1}
