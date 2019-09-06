@@ -1,6 +1,6 @@
 # Your Code Here
 
-def my own map
+def my_own_map
   new = []
   i = 0
   while i < source_array.length do
@@ -10,4 +10,4 @@ def my own map
   return new
 end
 
-my own map(){|n| n * -1}
+my_own_map(){|n| n * -1}
