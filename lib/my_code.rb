@@ -8,7 +8,7 @@ def map (source_array)
   return new
 end
 
-def reduce(source_array, starting_value = 0)
+def reduce(source_array, starting_value = nil)
   i = 0
   total = 0 
   
@@ -17,6 +17,7 @@ def reduce(source_array, starting_value = 0)
   end
   
   while i < source_array.length do
+    yield(total)
     (yield(source_array[i]))
     i += 1
   end
