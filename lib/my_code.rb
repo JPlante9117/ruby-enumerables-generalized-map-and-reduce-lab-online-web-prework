@@ -2,7 +2,7 @@
 
 def my_own_map
   i = 0
-  while i < Array.length do
+  while i < 5 do
     yield
     i += 1
   end
