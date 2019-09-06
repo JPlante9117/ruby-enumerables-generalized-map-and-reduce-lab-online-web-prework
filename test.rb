@@ -10,4 +10,4 @@ def intros (name)
   yield("Paul")
 end
 
-intros("Manny") {|n| "My name is #{n}!"
+intros("Manny") {|n| "My name is #{n}!"}
