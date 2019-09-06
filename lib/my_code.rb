@@ -10,4 +10,4 @@ end
 
 
 
-my_own_map.map {|i| puts i * -1}
+my_own_map.map{|i| puts i * -1}
