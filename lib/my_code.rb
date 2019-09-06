@@ -10,4 +10,4 @@ def my own map
   return new
 end
 
-map(){|n| n * -1}
+my own map(){|n| n * -1}
