@@ -1,11 +1,13 @@
 # Your Code Here
 
-def map_to_negativize(source_array)
+def my own map
   new = []
   i = 0
   while i < source_array.length do
-    yield (new.push( source_array[i] * -1 )) # <== Unique work
+    yield
     i += 1
   end
   return new
 end
+
+map(){|n| n * -1}
