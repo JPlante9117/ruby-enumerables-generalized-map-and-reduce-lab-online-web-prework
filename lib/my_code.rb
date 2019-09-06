@@ -9,11 +9,12 @@ def map (source_array)
 end
 
 def reduce(source_array, starting_value = nil)
-  i = 0
-  total = 0 
-  
-  if starting_value
+if starting_value
     total = starting_value
+    i = 0
+  else
+    total = source_array[0]
+    i = 1
   end
   
   while i < source_array.length do
